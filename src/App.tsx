@@ -95,7 +95,27 @@ const App: React.FC = () => {
                 Practical security experience across offensive testing, threat analysis, and defensive monitoring.
                 </p>
               </div>
-
+ <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+              <div className="transform transition-all duration-300 hover:scale-105 group">
+                  <div className="flex justify-center mx-auto items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                    <svg 
+                      className="w-[48px] h-[48px] text-gray-800 dark:text-white transition-colors duration-300 group-hover:text-green-500 group-hover:scale-125"
+                      aria-hidden="true" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="24" 
+                      height="24" 
+                      fill="none" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path 
+                        stroke="currentColor" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        strokeWidth="1" 
+                        d="M9.5 11.5 11 13l4-3.5M12 20a16.405 16.405 0 0 1-5.092-5.804A16.694 16.694 0 0 1 5 6.666L12 4l7 2.667a16.695 16.695 0 0 1-1.908 7.529A16.406 16.406 0 0 1 12 20Z"
+                      />
+                    </svg>
+                  </div>
 
         {/* #### SERVICES SECTION #### */}
           <section id="expertise" className="pt-8 pb-12 bg-white dark:bg-black flex justify-center items-center">
