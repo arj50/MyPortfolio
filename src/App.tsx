@@ -84,18 +84,7 @@ const App: React.FC = () => {
     </section>
 
     {/* #### ACCOLADES SECTION #### */}
-         <section id="expertise" className="pt-8 pb-12 bg-white dark:bg-black flex justify-center items-center">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 text-center">
-
-              <div className="max-w-screen-md mb-8 lg:mb-12 mx-auto">
-                <h2 className="mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                Cybersecurity Expertise
-                </h2>
-                <p className="text-gray-500 text-2xl dark:text-gray-400">
-                Practical security experience across offensive testing, threat analysis, and defensive monitoring.
-                </p>
-              </div>
- <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
               <div className="transform transition-all duration-300 hover:scale-105 group">
                   <div className="flex justify-center mx-auto items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                     <svg 
@@ -116,7 +105,14 @@ const App: React.FC = () => {
                       />
                     </svg>
                   </div>
-
+                  <h3 className="mb-2 text-3xl font-bold dark:text-white">Network & Web Security</h3>
+                  <p className="text-gray-500 text-xl dark:text-gray-400">
+                   Security assessment of network and web-facing components to identify exposed services, misconfigurations, and common attack vectors.
+	•	Nmap • Wireshark • WAFW00F
+	•	Burp Suite • OWASP ZAP
+	•	Metasploit
+                  </p>
+                </div>
         {/* #### SERVICES SECTION #### */}
           <section id="expertise" className="pt-8 pb-12 bg-white dark:bg-black flex justify-center items-center">
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 text-center">
