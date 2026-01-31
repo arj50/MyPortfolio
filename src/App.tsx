@@ -84,7 +84,18 @@ const App: React.FC = () => {
     </section>
 
     {/* #### ACCOLADES SECTION #### */}
-        
+         <section id="expertise" className="pt-8 pb-12 bg-white dark:bg-black flex justify-center items-center">
+          <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 text-center">
+
+              <div className="max-w-screen-md mb-8 lg:mb-12 mx-auto">
+                <h2 className="mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                Cybersecurity Expertise
+                </h2>
+                <p className="text-gray-500 text-2xl dark:text-gray-400">
+                Practical security experience across offensive testing, threat analysis, and defensive monitoring.
+                </p>
+              </div>
+
 
         {/* #### SERVICES SECTION #### */}
           <section id="expertise" className="pt-8 pb-12 bg-white dark:bg-black flex justify-center items-center">
